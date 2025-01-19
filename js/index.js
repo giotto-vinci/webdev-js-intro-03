@@ -1,6 +1,12 @@
 // Prevent us from attempting to use variables
 // that are not declared
 "use strict"
+fetch('answers.txt')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('submission-btn').innerText = data;
+  });
+
 /*
 console.log(2+2);
 console.log(17-11);
