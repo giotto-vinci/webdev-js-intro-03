@@ -1,0 +1,7 @@
+Number data types added to string data types return a string because JavaScript uses concatenation to make sense of adding the two values, by treating the number data type as a string.  If you want a numerical data type to be returned the string has to be converted to a number first.
+
+In JavaScript type coercion can lead to the automatic, implicit, conversion of data types from one to another during operations and comparisons.  So, using the == operator can lead to the automatic conversion of number data type to a string data type or vice a versa as in question number 1.
+
+As of now I think the most difficult operator to understand is the Modulus. I can think of a few cases that it would be very useful but this also leads me to think there are a lot more uses that I'm not seeing for this operator.
+
+One use of the Modulus operator is to determine even and odd numbers using, n%2===0 and n%2!==0.

@@ -37,8 +37,8 @@ To view the project locally, you can either open the project files in your code 
 
 #### Part 2
 
-- [ ] Navigate to the Assignment Page
-- [ ] Read the assignment questions.
+- [x] Navigate to the Assignment Page
+- [x] Read the assignment questions.
 - [x] Create a file called `answers.txt` and answer the questions in that file.
 
 
